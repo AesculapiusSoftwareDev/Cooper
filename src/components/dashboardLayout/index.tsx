@@ -43,7 +43,6 @@ export default function DashboardLayout(props: LayoutProps) {
       })
       .then((result) => {
         if (result.status === 200) {
-          console.log("successful");
         } else {
           setIsError(true);
         }
